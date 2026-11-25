@@ -66,7 +66,7 @@
 
 a9n9 provides an MPP‑paid AI agent deep‑research service that lets developers submit research objectives and receive exact quotes, a planned source list, and a comprehensive cross‑source report. The platform offers a free daily quick search for news and papers, supports paid per‑request evaluations, and exposes an OpenAPI specification for integration.
 
-**Areas:** AI · Research · Agent · MPP · DeepResearch · PaidAPI
+**Areas:** Artificial Intelligence · Research · Agents · MPP · Deep Research · PaidAPI
 
 ## a9n9 on APIs.io
 
@@ -81,11 +81,17 @@ Everything profiled for a9n9 is published on APIs.io rather than in this reposit
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [a9n9-net-mcp.yml](https://apis.io/servers/a9n9-net/a9n9-net-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [A9N9 Net Agentic Access](https://apis.io/agentic-access/a9n9-net/a9n9-net-agentic-access/)
+- [a9n9 Agentic Access](https://apis.io/agentic-access/a9n9-net/a9n9-net-agentic-access/)
 
 #### Governance rules (1)
 
@@ -97,14 +103,14 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [A9N9 Net Authentication](https://apis.io/security/a9n9-net/a9n9-net-authentication/)
-- [A9N9 Net Domain Security](https://apis.io/security/a9n9-net/a9n9-net-domain-security/)
+- [a9n9 Authentication](https://apis.io/security/a9n9-net/a9n9-net-authentication/)
+- [a9n9 Domain Security](https://apis.io/security/a9n9-net/a9n9-net-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [A9N9 Net Scopes](https://apis.io/scopes/a9n9-net/a9n9-net-scopes/)
+- [a9n9 Scopes](https://apis.io/scopes/a9n9-net/a9n9-net-scopes/)
 
 ## Where to find this API
 
@@ -118,23 +124,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 34.9** — thin · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 27.7** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
 | Discoverability | 65.0 |
 | Contract quality | 40.4 |
-| Contract governance | 65.5 |
+| Contract governance | 18.2 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 49.3 |
 | Access clarity | 0.0 |
 
-**Agent readiness 33.0** — agent-ready
+**Agent readiness 29.2** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
@@ -145,7 +151,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Event Surface Described | — |
 | Agent Skills | unknown |
 | Well Known Catalog | — |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | — |
 | Dry Run Mode | — |
 | Delegated Identity | — |
@@ -154,8 +160,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 19.1** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 13.6** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/a9n9-net/](https://apis.io/providers/a9n9-net/).
 
